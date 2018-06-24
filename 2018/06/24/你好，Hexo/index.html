@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="hello," />
 
 
 
@@ -79,17 +79,15 @@
 
 
 
-<meta name="description" content="借了东西为什么不还">
+<meta name="keywords" content="hello">
 <meta property="og:type" content="article">
 <meta property="og:title" content="你好，Hexo">
 <meta property="og:url" content="http://yoursite.com/2018/06/24/你好，Hexo/index.html">
 <meta property="og:site_name" content="葛迅的小栈">
-<meta property="og:description" content="借了东西为什么不还">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-06-23T17:01:43.680Z">
+<meta property="og:updated_time" content="2018-06-24T08:35:21.835Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="你好，Hexo">
-<meta name="twitter:description" content="借了东西为什么不还">
 
 
 
@@ -99,7 +97,7 @@
     root: '/',
     scheme: 'Mist',
     version: '5.1.4',
-    sidebar: {"position":"right","display":"always","offset":10,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"right","display":"post","offset":10,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -160,7 +158,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">有希望总是好的</p>
       
   </div>
 
@@ -346,6 +344,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/电影评论/" itemprop="url" rel="index">
+                    <span itemprop="name">电影评论</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -411,6 +431,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/hello/" rel="tag"># hello</a>
+          
+        </div>
       
 
       
@@ -491,7 +517,7 @@
                 alt="GeXun" />
             
               <p class="site-author-name" itemprop="name">GeXun</p>
-              <p class="site-description motion-element" itemprop="description">借了东西为什么不还</p>
+              <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
           <nav class="site-state motion-element">
@@ -508,7 +534,25 @@
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
             
 
           </nav>
@@ -723,7 +767,7 @@
     var isfetched = false;
     var isXml = true;
     // Search DB path;
-    var search_path = "";
+    var search_path = "search.xml";
     if (search_path.length === 0) {
       search_path = "search.xml";
     } else if (/json$/i.test(search_path)) {
